@@ -4,7 +4,7 @@ import './appList.css';
 import axios from "axios";
 
 const AppList = () => {
-  const BASE_URL = "http://localhost:8080";
+  const BASE_URL = "https://student-job-tracker-nzlt.onrender.com";
   const [applications, setApplications] = useState([]);
   const [filterStatus, setFilterStatus] = useState("");
   const [startDate, setStartDate] = useState("");
